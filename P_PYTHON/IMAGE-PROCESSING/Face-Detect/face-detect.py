@@ -1,6 +1,6 @@
 import cv2 as cv
 
-cascade_face=cv.CascadeClassifier('haarcascade_frontalface_default.xml')
+cascade_face=cv.CascadeClassifier('d:/Practice Projects/P_PYTHON/IMAGE-PROCESSING/haar-cascade-files/haarcascade_frontalface_default.xml')
 
 cap=cv.VideoCapture(0)
 

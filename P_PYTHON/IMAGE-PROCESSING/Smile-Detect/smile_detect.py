@@ -1,7 +1,7 @@
 import cv2 as cv
 
-cascade_face=cv.CascadeClassifier('haarcascade_frontalface_default.xml')
-cascade_smile=cv.CascadeClassifier('haarcascade_smile.xml')
+cascade_face=cv.CascadeClassifier('d:/Practice Projects/P_PYTHON/IMAGE-PROCESSING/haar-cascade-files/haarcascade_frontalface_default.xml')
+cascade_smile=cv.CascadeClassifier('d:/Practice Projects/P_PYTHON/IMAGE-PROCESSING/haar-cascade-files/haarcascade_smile.xml')
 
 cap=cv.VideoCapture(0)
 
@@ -28,7 +28,7 @@ while(True):
         )
 
         for i in s:
-            if len(s) > 1:
+            if len(s) > 0.5:
                 cv.putText(img, "SMILING", (x, y - 30),cv.FONT_HERSHEY_SIMPLEX, 2,(0, 255, 0), cv.LINE_AA)
     
     cv.imshow('video', img )
