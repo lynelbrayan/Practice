@@ -1,6 +1,5 @@
 import java.rmi.*;
-import java.rmi.server.*;
-import java.util.Scanner;
+
 
 import javax.swing.*;
 import java.awt.*;
