@@ -1,3 +1,4 @@
+//FinderImpl.java
 import java.rmi.*;
 import java.rmi.server.UnicastRemoteObject;
 import java.time.*;
@@ -19,7 +20,7 @@ public class FinderImpl extends UnicastRemoteObject implements Finder{
             Period dif=Period.between(s1, now);
             
         
-        str=""+dif.getYears()+" years"+dif.getMonths()+" months"+dif.getYears()+" days";
+        str=""+dif.getYears()+" years"+dif.getMonths()+" months"+dif.getDayss()+" days";
         
         } catch (Exception e) {
             // TODO Auto-generated catch block
