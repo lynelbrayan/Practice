@@ -20,7 +20,7 @@ public class FinderImpl extends UnicastRemoteObject implements Finder{
             Period dif=Period.between(s1, now);
             
         
-        str=""+dif.getYears()+" years"+dif.getMonths()+" months"+dif.getDayss()+" days";
+        str=""+dif.getYears()+" years"+dif.getMonths()+" months"+dif.getDays()+" days";
         
         } catch (Exception e) {
             // TODO Auto-generated catch block

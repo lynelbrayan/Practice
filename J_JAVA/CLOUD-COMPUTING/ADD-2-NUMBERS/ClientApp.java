@@ -1,3 +1,4 @@
+//ClientApp.java
 import java.rmi.*;
 
 import javax.swing.*;
@@ -35,6 +36,7 @@ sub.addActionListener(new ActionListener(){
         }
     }
 });
+
 
 getContentPane().add(l1);
 getContentPane().add(t1);

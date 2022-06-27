@@ -1,12 +1,9 @@
+//ClientApp.java
 import java.rmi.*;
-
 import javax.swing.*;
-
-
-
 import java.awt.*;
 import java.awt.event.*;
-public class ClientApp extends JFrame implements ActionListener{
+public class ClientApp extends JFrame{
     ClientApp()
     {
         JTextField d=new JTextField("yyyy-mm-dd",20);
