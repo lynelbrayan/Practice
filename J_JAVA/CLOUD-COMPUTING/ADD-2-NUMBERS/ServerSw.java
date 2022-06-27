@@ -6,6 +6,8 @@ class ServerSw
         try{
         AdderImp sum=new AdderImp();
         Naming.rebind("sum", sum);
-        }catch(Exception e){}
+        }catch(Exception e){
+            System.out.println(e);
+        }
     }
 }

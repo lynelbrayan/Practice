@@ -1,6 +1,7 @@
 import java.rmi.*;
 
 import javax.swing.*;
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -29,7 +30,9 @@ sub.addActionListener(new ActionListener(){
         res.setText(""+sum.add(m,n));    
         }
         catch(Exception s)
-        {}
+        {
+            System.out.println(s);
+        }
     }
 });
 
