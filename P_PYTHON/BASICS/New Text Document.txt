@@ -1,0 +1,11 @@
+import re
+type(0.1)
+type(1)
+str=input("Enter a string")
+
+vals=re.split(str,",")
+
+for i in vals:
+    i=int(i)
+    if type(i**0.5)==type(1):
+

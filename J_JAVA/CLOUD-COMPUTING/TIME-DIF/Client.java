@@ -1,6 +1,5 @@
+//Client.java
 import java.rmi.*;
-
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

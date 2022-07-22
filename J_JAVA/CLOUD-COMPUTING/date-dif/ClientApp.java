@@ -1,3 +1,4 @@
+//ClientApp.java
 import java.rmi.*;
 
 import javax.swing.*;
@@ -30,8 +31,8 @@ public class ClientApp extends JFrame{
         });
         getContentPane().add(d1);
         getContentPane().add(d2);
-        getContentPane().add(l1);
         getContentPane().add(b);
+        getContentPane().add(l1);
         setLayout(new GridLayout(3,1));
         setVisible(true);
         pack();
