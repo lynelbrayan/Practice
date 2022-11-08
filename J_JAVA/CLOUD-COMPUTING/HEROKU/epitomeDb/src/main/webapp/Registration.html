@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="/epitomeDb/Home.jsp" method="post">
+            <table>
+                <tr>
+                    <td><span>College Name</span></td><td><input name="colname" /></td>
+                </tr>
+                <tr>
+                    <td><span>Department</span></td><td>
+                        <select name="dept">
+                            <option value="mca">MCA</option>
+                            <option value="msc">MSC</option>
+                            <option value="me">M.E.</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>College Representative</span></td><td><input name="colrep"/></td>
+                </tr>
+                <tr>
+                    <td><span>Email</span></td><td><input name="email" type="email"/></td>
+                </tr>
+                <tr>
+                    <td><span>Password</span></td><td><input name="pword"></td>
+                </tr>
+                <tr>
+                    <td><span>confirm password</span></td><td><input name="cpword"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">submit</button></td>
+                </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>

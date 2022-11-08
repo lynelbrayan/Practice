@@ -1,1 +1,7 @@
 *.class
+/J_JAVA/CLOUD-COMPUTING/HEROKU/EpitomeNoDb/target/
+/J_JAVA/CLOUD-COMPUTING/HEROKU/mavenproject1/target/
+/J_JAVA/CLOUD-COMPUTING/HEROKU/mavenproject2/target/
+/J_JAVA/CLOUD-COMPUTING/HEROKU/epitomeDb/target/
+/J_JAVA/CLOUD-COMPUTING/HEROKU/calculator/target/
+/J_JAVA/CLOUD-COMPUTING/HEROKU/calculatora/target/
